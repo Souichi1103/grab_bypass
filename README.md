@@ -22,6 +22,10 @@ This project automates the installation of Frida server and includes scripts to 
    - Automatically install and set up the Frida server on your device if it doesn’t already exist.
    - Push the `maps` file to `/data/local/tmp`.
 
-3. **Terminal 1:** Start the Frida server on your device with the following command:
+3.  Once the installation is complete, you can run Frida with the following command:
    ```bash
+   **Terminal 1:**
    adb shell "su -c /data/local/tmp/fda-tanginamo &"
+   **Terminal 2:**
+   frida -l grab_main.js -f com.grabtaxi.passenger -U
+   
