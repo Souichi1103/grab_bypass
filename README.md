@@ -25,7 +25,7 @@ This project automates the installation of Frida server and includes scripts to 
 3.  Once the installation is complete, you can run Frida with the following command:
    ```bash
    **Terminal 1:**
-   adb shell "su -c /data/local/tmp/fda-tanginamo &"
+   adb shell "su -c /data/local/tmp/frida-server &"
    **Terminal 2:**
    frida -l grab_main.js -f com.grabtaxi.passenger -U
    
