@@ -11,6 +11,7 @@ This project automates the installation of Frida server and includes scripts to 
 - **Banning accounts**: This bypass helps prevent your account from being banned within the app.
 - **Frida detection**: It bypasses any attempt by the app to detect the presence of Frida.
 - **`libpsec` library detection**: Bypasses security checks related to the `libpsec` library in the app.
+- **Root detection**: Bypasses checks that detect if your device is rooted.
 
 ## How to Use
 
