@@ -31,5 +31,5 @@ This project automates the installation of Frida server and includes scripts to 
    frida -l grab_main.js -f com.grabtaxi.passenger -U
    
 
-
+## Screenshot
 ![tanginamo_grab](https://github.com/user-attachments/assets/ea8d4bab-2c05-4f2d-b8fc-e9ac8c4d2337)
