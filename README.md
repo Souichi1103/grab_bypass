@@ -13,6 +13,9 @@ This project automates the installation of Frida server and includes scripts to 
 - **`libpsec` library detection**: Bypasses security checks related to the `libpsec` library in the app.
 - **Root detection**: Bypasses checks that detect if your device is rooted.
 
+## Screenshot
+![tanginamo_grab](https://github.com/user-attachments/assets/ea8d4bab-2c05-4f2d-b8fc-e9ac8c4d2337)
+
 ## How to Use
 
 1. Connect your rooted ARM64 device via ADB.
@@ -25,11 +28,10 @@ This project automates the installation of Frida server and includes scripts to 
 
 3.  Once the installation is complete, you can run Frida with the following command:
    ```bash
-   **Terminal 1:**
+   # Terminal 1:
    adb shell "su -c /data/local/tmp/frida-server &"
-   **Terminal 2:**
+   # Terminal 2:
    frida -l grab_main.js -f com.grabtaxi.passenger -U
    
 
-# Screenshot
-# ![tanginamo_grab](https://github.com/user-attachments/assets/ea8d4bab-2c05-4f2d-b8fc-e9ac8c4d2337)
+
